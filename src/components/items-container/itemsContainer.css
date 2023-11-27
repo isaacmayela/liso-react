@@ -1,0 +1,33 @@
+.items-Container{
+    padding-bottom: 5em;
+}
+
+.items-Container > ul > li{
+    padding: 1em 0;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.items-Container > ul > li .item-link{
+    /* padding-left: 1em; */
+    color: black;    
+}
+
+.items-Container > ul > li .item-link ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-left: 7px solid #e7f2ff;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 0.9em;
+    gap: 2em;
+}
+
+.items-Container > ul > li .item-link ul:hover{
+    /* background-color: rgb(249, 249, 249); */
+    background-color: #f8fafc;
+}
+
+.items-Container > ul > li .item-link ul li{
+    overflow-x: hidden;
+    white-space: nowrap;
+}

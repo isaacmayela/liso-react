@@ -1,0 +1,14 @@
+.items-title > ul{
+    background-color: #f8fafc;
+    padding: 1em 0.8em;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1em;
+    gap: 2em;
+}
+
+.items-title > ul > li{
+    color: rgb(82, 82, 82);
+    font-weight: 700;
+}

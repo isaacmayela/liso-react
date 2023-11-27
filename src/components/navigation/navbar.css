@@ -1,0 +1,23 @@
+.main-container__navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0.5em 0.7em;
+    width: 100%;
+}
+
+.main-container__navbar h2{
+    font-weight: 600;
+}
+
+.main-container__navbar__user-profile a{
+    color: black;
+}
+
+/* .user-profile{
+    display: flex;
+} */
+
+.user-image{
+    width: 2em;
+}

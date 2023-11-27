@@ -1,0 +1,15 @@
+.main-container__element-container__banner{
+    background-color: #274285;
+    border-radius: 12px 12px 0 0;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    gap: 3em;
+}
+
+.main-container__element-container__banner img{
+    width: 16em;
+}
+.main-container__element-container__banner p{
+    color: #f8f8f8;
+    font-weight: 600;
+    font-size: 1.3em;
+}
