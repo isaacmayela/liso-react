@@ -99,3 +99,8 @@
     background-color: #a5a4a4;
     color: #fff !important;
 }
+
+.active{
+    background-color: #a5a4a4;
+    color: #fff;
+}

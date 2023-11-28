@@ -5,6 +5,8 @@
   import { providerList } from "../../handle-list/handleProviderList";
   import { useState, useRef } from "react";
   
+  import { NavLink } from "react-router-dom";
+  
   export default function DetailsContainer() {
     
     const [nom, setNom] = useState("Identité de l'entreprise");
